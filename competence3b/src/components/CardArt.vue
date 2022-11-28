@@ -1,8 +1,8 @@
 <template>
+  <br>
+  <h1>Les classiques</h1>
     <div id="app">
-      <h1>Les classiques</h1>
-  
-<div v-for="item of items" :key="item.id">
+<div id="carte" v-for="item of items" :key="item.id">
     <div class="card" style="width: 18rem;">
   <img src="images/Bel-ami-guy-de-maupaant.jpeg" class="card-img-top" alt="livre">
   <div class="card-body">
@@ -38,9 +38,19 @@
 
   
 <style scoped>
-.card {
+
+h1 {
+  text-align: center;
+}
+#app {
   display: flex;
-  flex-direction: column;
-  margin: 10px;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+  padding: 30px;
+}
+.card {
+  margin: 20px;
+  padding: 10px;
 }
 </style>

@@ -22,28 +22,6 @@
       <formul></formul>
       <footerv></footerv>
 
-      <h1 class="pb-3 mb-4 font-italic border-bottom">
-        Les livres du moment
-     </h1>
-     <div class="containerv">
-       <div class="row">
-          <div v-for="product in products" class="col-md-4">
-             <div class="card mb-4 text-dark bg-light">
-                <img class="card-img-topv" :src=`${product.image}` alt="Card image livre">
-                <div class="card-body">
-                   <h5 class="card-titlev">{{ product.name }}</h5>
-                   <p class="card-text">{{ product.texte }}</p>
-                   <a href="#" class="btn btn-outline-custom btn-sm btn-read-more">{{product.texte2}}</a>
-                </div>
-             </div>
-          </div>
-        </div>
-       </div>
-       <div class="pb-3 mb-4 border-top">
-       </div>
-     </div>
-
-      </div>
   <!--<header>
       <nav>
           <img id="logo" src="images/nvxlogo.png" alt="logo"/>

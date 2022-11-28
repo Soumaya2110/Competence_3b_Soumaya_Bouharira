@@ -753,6 +753,11 @@
             height: 35px;
         }
 
+        .card {
+            display: flex;
+            flex-direction: column;
+        }
+
        .card-img-topv {
             height: 200px;
             width: 180px;

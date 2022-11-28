@@ -9,12 +9,18 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img id="img-carou1" src="images/bibli.carou.jpg" class="d-block w-100" alt="">
+      <p class="maintext">Offrez une nouvelle vie à toute vos bibliothèques !</p>
+      <button class="mainbuttons" type="button" id="btn btn-primary">J'achète !</button>
     </div>
     <div class="carousel-item">
       <img id="img-carou2" src="images/bibli2.jpg" class="d-block w-100" alt="">
+      <p class="maintext">Offrez une nouvelle vie à toute vos bibliothèques !</p>
+      <button class="mainbuttons" type="button" id="btn btn-primary">J'achète !</button>
     </div>
     <div class="carousel-item">
       <img id="img-carou3" src="images/bibli4.jpg" class="d-block w-100" alt="">
+      <p class="maintext">Offrez une nouvelle vie à toute vos bibliothèques !</p>
+      <button class="mainbuttons" type="button" id="btn btn-primary">J'achète !</button>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
