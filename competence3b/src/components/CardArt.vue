@@ -1,41 +1,46 @@
 <template>
-  <div class="cardcont">
+    <div id="app">
+      <h1>Les classiques</h1>
+  
+<div v-for="item of items" :key="item.id">
     <div class="card" style="width: 18rem;">
-  <img src="images/Bel-ami-guy-de-maupaant.jpeg" class="card-img-top" alt="image-livre">
+  <img src="images/Bel-ami-guy-de-maupaant.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">{{item.name}}</h5>
+    <p class="card-text">{{item.texte}}</p>
+    <a href="#" class="btn btn-primary">Acheter</a>
   </div>
 </div>
-  </div>
+</div>
+</div>
   </template>
-  
+
+
   <script>
-  
-  
-  
+  import axios from "axios";
   export default {
-    name: 'CardArt'
-   
-    
-    
-  }
+    name: "App",
+    data() {
+      return {
+        items: [],
+      };
+    },
+    async created() {
+      try {
+        const res = await axios.get(`http://localhost:3000/items`);
+        this.items = res.data;
+      } catch (error) {
+        console.log(error);
+      }
+    },
+  };
   </script>
-  
-  
-  <!-- Add "scoped" attribute to limit CSS to this component only -->
-  <style scoped>
-
-.cardcont {
-    padding: 10px;
-}
-template {
-    display: flex;
-    flex-direction: column;
-}
- 
 
   
-  
-  </style>
+<style scoped>
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+</style>

@@ -3,8 +3,6 @@
     <navbar></navbar>
     <carrousel></carrousel>
     <card></card>
-    <card></card>
-    <test></test>
     <formul></formul>
     <footerv></footerv>
   </div>
@@ -13,10 +11,11 @@
 <script>
 import NavBar from './NavBar.vue'
 import CarrouselBibli from './CarrouselBibli.vue';
-import CardArt from './CardArt.vue';
 import FormContact from './FormContact.vue';
 import FooterVa from './FooterVa.vue';
-import TestJso from './TestJso.vue';
+import CardArt from './CardArt.vue';
+
+
 
 
 
@@ -25,10 +24,10 @@ export default {
   components:{
     'navbar': NavBar,
     'carrousel': CarrouselBibli,
-    'card': CardArt,
     'formul': FormContact,
     'footerv': FooterVa,
-    'test': TestJso
+    'card': CardArt
+    
 
   }
   
