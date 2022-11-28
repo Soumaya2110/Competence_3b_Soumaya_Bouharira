@@ -31,7 +31,7 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Recherche</button>
+        <button id="buttvue" class="btn btn-outline-success" type="submit">Recherche</button>
       </form>
     </div>
   </div>
@@ -62,6 +62,12 @@
     color: blue;
   }
 
-  
+  #buttvue {
+    color: rgba(0, 194, 203);
+    border: solid 1px rgba(0, 194, 203);
+  }
+  #buttvue:hover {
+    background-color: #ff5757;
+  }
   
   </style>
