@@ -1,6 +1,39 @@
 {
     "items":[
-        
+      {
+        "id": 1,
+        "name": "Bel ami",
+        "detail": "Maupassant",
+        "texte": "Description du livre, articles, avis....",
+        "texte2": "En savoir plus",
+        "image": "./images/beaulivre.jpg"
+      },
+      {
+          "id": 2,
+          "name": "Candide",
+          "detail": "Voltaire",
+          "texte": "Description du livre, articles, avis....",
+          "texte2": "En savoir plus",
+          "image": "./images/beaulivre.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Les misérables",
+          "detail": "Victor Hugo",
+          "texte": "Description du livre, articles, avis....",
+          "texte2": "En savoir plus",
+          "image": "./images/beaulivre.jpg"
+        },
+
+        {
+          "id": 4,
+          "name": "Madame Bovary",
+          "detail": "Gustave Flaubert",
+          "texte": "Description du livre, articles, avis....",
+          "texte2": "En savoir plus",
+          "image": "./images/beaulivre.jpg"
+        }
+
       
     ]
   }
