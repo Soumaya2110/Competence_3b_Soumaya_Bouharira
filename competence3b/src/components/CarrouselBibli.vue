@@ -8,13 +8,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/bibli.carou.jpg" class="d-block w-100" alt="">
+      <img id="img-carou1" src="images/bibli.carou.jpg" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item">
-      <img src="images/bibli2.jpg" class="d-block w-100" alt="">
+      <img id="img-carou2" src="images/bibli2.jpg" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item">
-      <img src="images/bibli4.jpg" class="d-block w-100" alt="">
+      <img id="img-carou3" src="images/bibli4.jpg" class="d-block w-100" alt="">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -46,5 +46,20 @@
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
   <style scoped>
+
+  #img-carou1 {
+    height: 600px;
+    width: 1440px;
+  }
+
+  #img-carou2 {
+    height: 600px;
+    width: 1440px;
+  }
+
+  #img-carou3 {
+    height: 600px;
+    width: 1440px;
+  }
   
   </style>
