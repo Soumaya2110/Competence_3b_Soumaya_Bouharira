@@ -4,7 +4,7 @@
   
 <div v-for="item of items" :key="item.id">
     <div class="card" style="width: 18rem;">
-  <img src="images/Bel-ami-guy-de-maupaant.jpeg" class="card-img-top" alt="...">
+  <img src="images/Bel-ami-guy-de-maupaant.jpeg" class="card-img-top" alt="livre">
   <div class="card-body">
     <h5 class="card-title">{{item.name}}</h5>
     <p class="card-text">{{item.texte}}</p>
