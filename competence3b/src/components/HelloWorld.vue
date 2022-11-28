@@ -1,18 +1,21 @@
 <template>
   <div>
     <navbar></navbar>
+    <carrousel></carrousel>
   </div>
 </template>
 
 <script>
 import NavBar from './NavBar.vue'
+import CarrouselBibli from './CarrouselBibli.vue';
 
 
 
 export default {
   name: 'HelloWorld',
   components:{
-    'navbar': NavBar
+    'navbar': NavBar,
+    'carrousel': CarrouselBibli
 
   }
   
